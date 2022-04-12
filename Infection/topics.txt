@@ -1,0 +1,34 @@
+** Calc Model **
+
+* Basic SIR Model *
+explain euler's method
+Basic Definitions:
+- dS/dt
+- dI/dt
+- dR/dt
+
+Transmission Rate (a)
+- mask
+- quarantine
+- herd immunity / vaccination
+
+Recovery Rate (B)
+- not much way to change this
+
+Extras:
+- Vaccine
+- Death rate
+
+Limitations:
+- Connection networks
+- percentage changes rather than individualized
+- not periodic
+- very abstract
+
+** Simulation Model **
+explain
+compare
+
+Limitations:
+
+

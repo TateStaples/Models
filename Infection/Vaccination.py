@@ -212,12 +212,11 @@ class Sim:
         print(f"{self.vaccinated_infection_amount} out of {self.amount_vaccinated} vaccinated people were infected")
         print(f"{self.unvaccinated_infection_amount} out of {self.amount_unvaccinated} unvaccinated people were infected")
 
-
 if __name__ == '__main__':
-    vaccination_rate = .5
+    vaccination_rate = .8
     vaccination_efficacy = 0.67
     people_encountered = 5
     intial_amount_of_infected = 1
     population_size = 100
     sim = Sim(population_size, intial_amount_of_infected, people_encountered)
-    sim.run_sim()
+    sim.run_virtual_sim()

@@ -62,14 +62,9 @@ def quick_sort(stuff):
             higher_list.append(thing2)
         else:
             lower_list.append(thing2)
-    # print(higher_list)
     sort1 = quick_sort(lower_list)
     sort1.append(thing1)
     sort2 = quick_sort(higher_list)
-    # print(f"Full: {stuff}")
-    # print(f"High: {higher_list} --> {sort2}")
-    # print(f"Low: {lower_list} --> {sort1}")
-    # print()
     sort1.extend(sort2)
     return sort1
 
